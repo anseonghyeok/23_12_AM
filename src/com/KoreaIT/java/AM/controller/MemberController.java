@@ -133,7 +133,7 @@ public class MemberController extends Controller {
 		for (Member member : members) {
 			if (member.getLoginId().equals(loginId)) {
 				return false;
-			}
+			}f
 		}
 
 		return true;
